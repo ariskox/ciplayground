@@ -15,6 +15,7 @@
 		0BA8596F25C880750033C4C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BA8596D25C880750033C4C8 /* LaunchScreen.storyboard */; };
 		0BA8597A25C880760033C4C8 /* CIPlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA8597925C880760033C4C8 /* CIPlaygroundTests.swift */; };
 		0BA8598525C880760033C4C8 /* CIPlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA8598425C880760033C4C8 /* CIPlaygroundUITests.swift */; };
+		0BA859A225C897570033C4C8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0BA859A125C897570033C4C8 /* README.md */; };
 		6D446D58473CDD2B45B15D60 /* Pods_CIPlayground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A467AE64D3AEC4B1A892901D /* Pods_CIPlayground.framework */; };
 		6DB0D01A45CBCA1EDDAA6A83 /* Pods_CIPlaygroundTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F87C5BA1DC570964F32D6B1A /* Pods_CIPlaygroundTests.framework */; };
 		95D10E67CE092BCC64EFDCCF /* Pods_CIPlayground_CIPlaygroundUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A838D4BF3158EACB3C64CE /* Pods_CIPlayground_CIPlaygroundUITests.framework */; };
@@ -52,6 +53,7 @@
 		0BA8598025C880760033C4C8 /* CIPlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CIPlaygroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BA8598425C880760033C4C8 /* CIPlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIPlaygroundUITests.swift; sourceTree = "<group>"; };
 		0BA8598625C880760033C4C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BA859A125C897570033C4C8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		49A23E9EDCFB8BD9ABB01BF0 /* Pods-CIPlayground-CIPlaygroundUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CIPlayground-CIPlaygroundUITests.debug.xcconfig"; path = "Target Support Files/Pods-CIPlayground-CIPlaygroundUITests/Pods-CIPlayground-CIPlaygroundUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		780AD32AC80192BF4DDB86CD /* Pods-CIPlaygroundTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CIPlaygroundTests.release.xcconfig"; path = "Target Support Files/Pods-CIPlaygroundTests/Pods-CIPlaygroundTests.release.xcconfig"; sourceTree = "<group>"; };
 		810B252665D48C22D0DFDCBD /* Pods-CIPlayground-CIPlaygroundUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CIPlayground-CIPlaygroundUITests.release.xcconfig"; path = "Target Support Files/Pods-CIPlayground-CIPlaygroundUITests/Pods-CIPlayground-CIPlaygroundUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 		0BA8595625C880720033C4C8 = {
 			isa = PBXGroup;
 			children = (
+				0BA859A125C897570033C4C8 /* README.md */,
 				0BA8596125C880720033C4C8 /* CIPlayground */,
 				0BA8597825C880760033C4C8 /* CIPlaygroundTests */,
 				0BA8598325C880760033C4C8 /* CIPlaygroundUITests */,
@@ -276,6 +279,7 @@
 			files = (
 				0BA8596F25C880750033C4C8 /* LaunchScreen.storyboard in Resources */,
 				0BA8596C25C880750033C4C8 /* Assets.xcassets in Resources */,
+				0BA859A225C897570033C4C8 /* README.md in Resources */,
 				0BA8596A25C880720033C4C8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
