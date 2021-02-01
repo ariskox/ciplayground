@@ -18,6 +18,5 @@ jobs:
     - name: codecov-umbrella # optional
       uses: codecov/codecov-action@v1.2.1
       files: ./coverage1.xml,./coverage2.xml
-      flags: unittests
       fail_ci_if_error: true
       verbose: true
