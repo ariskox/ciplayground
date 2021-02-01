@@ -19,6 +19,6 @@ jobs:
       flags: unittests # optional
       name: codecov-umbrella # optional
       fail_ci_if_error: true # optional (default = false)
-    verbose: true # optional (default = false)    - name: Build
+      verbose: true # optional (default = false)    - name: Build
       run: xcodebuild -workspace "CIPlayground.xcworkspace" -scheme "CIPlayground" -destination="platform=iOS Simulator,OS=14.4, name=iPhone 12" clean build | xcpretty
     - name: Codecov
