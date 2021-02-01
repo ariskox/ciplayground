@@ -17,8 +17,7 @@ jobs:
       run: xcodebuild -workspace "CIPlayground.xcworkspace" -scheme "CIPlayground" -destination="platform=iOS Simulator,OS=14.4, name=iPhone 12" clean build | xcpretty
     - name: codecov-umbrella # optional
       uses: codecov/codecov-action@v1.2.1
-      token: ${{ secrets.CODECOV_TOKEN }} # not required for public repos
-      files: ./coverage1.xml,./coverage2.xml # optional
-      flags: unittests # optional
-      fail_ci_if_error: true # optional (default = false)
-      verbose: true # optional (default = false)
+      files: ./coverage1.xml,./coverage2.xml
+      flags: unittests
+      fail_ci_if_error: true
+      verbose: true
